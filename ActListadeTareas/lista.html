@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="./statics/lista.css">
+</head>
+<body>
+    <div id="todo">
+        <h1>Lista de tareas</h1>
+
+        <input id="tarea" name="tarea" type="text" placeholder="Escribe tu tarea"></br>
+        
+        
+        <select id="materias">
+            <option id="otra">Otra </option>
+            <option>Matemáticas</option>
+            <option>Literatura</option>
+            </select></br>
+        <div id="nuevamat" style="display:none"> 
+            <div id="input"><input id="contenido" type="text" placeholder="Escribe tu materia"></div>
+        </div>
+        
+        <button id="agregar">Agregar tarea</button> </br> </br>
+
+        <div id= "lista" >
+            
+        </div></br>
+
+        <div id="realizadas">0 </div> 
+        tareas realizadas de 
+        <div id="numtareas">0 </div> 
+
+    </div>
+   
+    <script src="./dynamics/java.js"></script>
+</body>
+</html>
