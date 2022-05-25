@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="./canal2.css">
+</head>
+<body>
+    <div id="todo">
+        <h1>Dibujador de estrellas</h1>
+        <div id="espacio">
+            <canvas width="450" height="450" id="mi-canvas">
+                <p>Hijole, no sirvií mi canvas pero acá te dejo una imagen de qué era</p>
+                <!-- <img src="./statics/images/imagenCanvas.png" alt="imagende no sé que"> -->
+            </canvas></br>
+
+        </div>
+        
+
+        <label for="no_picos">Número de picos: </label>
+        <input type="number" min="4" max="30" name="no_picos" id="no_picos"></br>
+
+        <label for="picudez">Picudez: </label>
+        <input type="range" min="1" max="4" name="picudez" id="picudez" list="valores"></br>
+
+        <label for="colorEs">Color de estrella: </label>
+        <input type="color" name="colorEs" id="colorEs"></br>
+        
+        ¿Quieres tu estrella llena?
+        <input type="checkbox" name="relleno" id="relleno">
+
+
+    </div>
+    <script src="./canal2.js"></script>
+</body>
+</html>

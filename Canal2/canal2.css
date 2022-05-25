@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Mi fuente";
+    src: url("./Jaldi-Bold.ttf");
+}
+
+h1{
+    font-family: "Mi fuente", 'Lucida Sans', 'Lucida Sans Regular';
+    color: #000000;    
+}
+
+body {
+    background-color: rgb(132, 2, 99) ;
+}
+
+#todo {
+
+    background-color: aliceblue;
+    width: 600px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    margin: auto;
+    
+}
+
