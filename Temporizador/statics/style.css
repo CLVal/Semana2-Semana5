@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Mi fuente";
+    src: url("./fonts/Jaldi-Bold.ttf");
+}
+
+
+#reloj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#numeros{
+    display: flex;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#tiempo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: auto;
+    text-align: center;
+    font-family: "Mi fuente", 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+#botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iniciar{
+    margin: 10px;
+}
+
+#detener{
+    margin: 10px;
+}
